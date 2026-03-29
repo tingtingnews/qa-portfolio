@@ -105,4 +105,4 @@ k6 run tests/performance/load_test.js
 6+ years QA experience | CompTIA Security+ | Python | Playwright | Postman
 Currently building toward Senior QA / IAM QA hybrid roles in the US market.
 
-[LinkedIn](https://linkedin.com/in/YOUR_PROFILE) | [GitHub](https://github.com/YOUR_USERNAME)
+[LinkedIn](https://linkedin.com/in/ting28/) | [GitHub](https://github.com/tingtingnews)
