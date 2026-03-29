@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Test reports (auto-generated, don't commit)
+reports/
+allure-results/
+allure-report/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright
+playwright/.cache/
+test-results/
