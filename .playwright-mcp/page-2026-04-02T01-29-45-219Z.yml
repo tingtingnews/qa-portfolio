@@ -1,0 +1,644 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - navigation "Primary" [ref=e7]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - link "Home" [ref=e14] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e15]:
+              - link "About" [ref=e16] [cursor=pointer]:
+                - /url: https://tinggg0528.wordpress.com/a-propos/
+            - listitem [ref=e17]:
+              - link "Start Here" [ref=e18] [cursor=pointer]:
+                - /url: https://neurospirit.co/explore-our-topics/
+        - link "NeuroSpirit | Science-Backed IBS-C & Chronic Constipation RelieF" [ref=e20] [cursor=pointer]:
+          - /url: https://neurospirit.co/
+          - img "NeuroSpirit | Science-Backed IBS-C & Chronic Constipation RelieF" [ref=e21]
+        - generic [ref=e22]:
+          - separator [ref=e24]
+          - generic [ref=e25]:
+            - heading "NeuroSpirit | Science-Backed IBS-C & Chronic Constipation RelieF" [level=1] [ref=e26]:
+              - link "NeuroSpirit | Science-Backed IBS-C & Chronic Constipation RelieF" [ref=e27] [cursor=pointer]:
+                - /url: https://neurospirit.co
+            - paragraph [ref=e28]: Calm Your Anxious Nervous System to Soothe Your Gut through the Gut-Brain Axis.
+          - separator [ref=e30]
+    - main [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e34]:
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - generic [ref=e37]:
+                - time [ref=e39]: March 30, 2026
+                - heading "Why Nothing Works for Your Constipation (And the One Thing That’s Different)" [level=2] [ref=e40]:
+                  - link "Why Nothing Works for Your Constipation (And the One Thing That’s Different)" [ref=e41] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/30/why-nothing-works-for-constipation/
+                - figure [ref=e42]:
+                  - link "Why Nothing Works for Your Constipation (And the One Thing That’s Different)" [ref=e43] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/30/why-nothing-works-for-constipation/
+                    - img "Why Nothing Works for Your Constipation (And the One Thing That’s Different)" [ref=e44]
+                - paragraph [ref=e46]:
+                  - text: Tried fiber, magnesium, and laxatives but still constipated? Here’s why nothing works — and the one approach that’s different.
+                  - link "Continue reading" [ref=e47] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/30/why-nothing-works-for-constipation/
+                - generic [ref=e49]:
+                  - generic [ref=e50]:
+                    - link "Chronic Constipation" [ref=e51] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/chronic-constipation/
+                    - text: ","
+                    - link "Gut-Brain Axis" [ref=e52] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/gut-brain-axis/
+                  - generic [ref=e53]:
+                    - link "Chronic Constipation" [ref=e54] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/chronic-constipation/
+                    - text: ","
+                    - link "constipation remedies" [ref=e55] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/constipation-remedies/
+                    - text: ","
+                    - link "Gut-Brain Axis" [ref=e56] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-brain-axis/
+                    - text: ","
+                    - link "gut-health" [ref=e57] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e58] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "IBS-C" [ref=e59] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/ibs-c/
+                    - text: ","
+                    - link "mental-health" [ref=e60] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "natural constipation relief" [ref=e61] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/natural-constipation-relief/
+                    - text: ","
+                    - link "nervous system" [ref=e62] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nervous-system-2/
+                    - text: ","
+                    - link "nutrition" [ref=e63] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "Vagus Nerve" [ref=e64] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/vagus-nerve/
+                    - text: ","
+                    - link "wellness" [ref=e65] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+            - listitem [ref=e66]:
+              - generic [ref=e67]:
+                - time [ref=e69]: March 11, 2026
+                - heading "Why Constipation Remedies Stop Working (And My 3-Step Rotation Protocol to Fix It)" [level=2] [ref=e70]:
+                  - link "Why Constipation Remedies Stop Working (And My 3-Step Rotation Protocol to Fix It)" [ref=e71] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/11/neurospirit-rotation-protocol-chronic-constipation/
+                - figure [ref=e72]:
+                  - link "Why Constipation Remedies Stop Working (And My 3-Step Rotation Protocol to Fix It)" [ref=e73] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/11/neurospirit-rotation-protocol-chronic-constipation/
+                    - img "Why Constipation Remedies Stop Working (And My 3-Step Rotation Protocol to Fix It)" [ref=e74]
+                - paragraph [ref=e76]:
+                  - text: "The Struggle: You found a constipation remedy that worked, only for your body to “outsmart” it weeks later. The Solution: The NeuroSpirit Rotation Protocol—a strategic, nervous-system-first method to keep your gut responsive and end the cycle of chronic constipation. For 15 years, I lived in a cycle of hope and failure. I would find a…"
+                  - link "Continue reading" [ref=e77] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/11/neurospirit-rotation-protocol-chronic-constipation/
+                - generic [ref=e79]:
+                  - link "Body-Mind Science" [ref=e81] [cursor=pointer]:
+                    - /url: https://neurospirit.co/category/body-mind-science/
+                  - generic [ref=e82]:
+                    - link "chronical-constipation" [ref=e83] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/chronical-constipation/
+                    - text: ","
+                    - link "diet" [ref=e84] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/diet/
+                    - text: ","
+                    - link "gut-health" [ref=e85] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e86] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "IBS-C" [ref=e87] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/ibs-c/
+                    - text: ","
+                    - link "nutrition" [ref=e88] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "wellness" [ref=e89] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+            - listitem [ref=e90]:
+              - generic [ref=e91]:
+                - time [ref=e93]: March 3, 2026
+                - heading "Why You Feel Worse After Taking Laxatives" [level=2] [ref=e94]:
+                  - link "Why You Feel Worse After Taking Laxatives" [ref=e95] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/03/why-you-feel-worse-after-taking-laxatives/
+                - figure [ref=e96]:
+                  - link "Why You Feel Worse After Taking Laxatives" [ref=e97] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/03/why-you-feel-worse-after-taking-laxatives/
+                    - img "Why You Feel Worse After Taking Laxatives" [ref=e98]
+                - paragraph [ref=e100]:
+                  - text: "A Calm, Science-Backed Explanation for Rebound Constipation If you’re reading this, you probably felt relief yesterday. And today… you feel worse. More bloated.More crampy.More stuck than before. You may be wondering: “Did I make it worse?”“Did I damage something?”“Why does constipation keep coming back?” That fear is understandable. When you’re uncomfortable, reaching for a laxative…"
+                  - link "Continue reading" [ref=e101] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/03/03/why-you-feel-worse-after-taking-laxatives/
+                - generic [ref=e103]:
+                  - link "Body-Mind Science" [ref=e105] [cursor=pointer]:
+                    - /url: https://neurospirit.co/category/body-mind-science/
+                  - generic [ref=e106]:
+                    - link "Chronic Constipation" [ref=e107] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/chronic-constipation/
+                    - text: ","
+                    - link "diet" [ref=e108] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/diet/
+                    - text: ","
+                    - link "health" [ref=e109] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "IBS-C" [ref=e110] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/ibs-c/
+                    - text: ","
+                    - link "mental-health" [ref=e111] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "nutrition" [ref=e112] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "wellness" [ref=e113] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+            - listitem [ref=e114]:
+              - generic [ref=e115]:
+                - time [ref=e117]: February 13, 2026
+                - heading "Why Constipation Emergencies Keep Repeating (And How to Break the Cycle)" [level=2] [ref=e118]:
+                  - link "Why Constipation Emergencies Keep Repeating (And How to Break the Cycle)" [ref=e119] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/02/13/why-constipation-emergencies-keep-repeating-and-how-to-break-the-cycle/
+                - figure [ref=e120]:
+                  - link "Why Constipation Emergencies Keep Repeating (And How to Break the Cycle)" [ref=e121] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/02/13/why-constipation-emergencies-keep-repeating-and-how-to-break-the-cycle/
+                    - img "Why Constipation Emergencies Keep Repeating (And How to Break the Cycle)" [ref=e122]
+                - paragraph [ref=e124]:
+                  - text: If you’re caught in a loop of desperate searches, emergency laxatives, and temporary relief—only to find yourself back in the same panicked place weeks later—you’re not failing. You’re stuck in a biological adaptation loop. This isn’t just about a sluggish gut. It’s about a nervous system that learns to associate your colon with danger, a gut-brain…
+                  - link "Continue reading" [ref=e125] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/02/13/why-constipation-emergencies-keep-repeating-and-how-to-break-the-cycle/
+                - generic [ref=e127]:
+                  - link "Body-Mind Science" [ref=e129] [cursor=pointer]:
+                    - /url: https://neurospirit.co/category/body-mind-science/
+                  - generic [ref=e130]:
+                    - link "gut-health" [ref=e131] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e132] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "mental-health" [ref=e133] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "nutrition" [ref=e134] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "wellness" [ref=e135] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+            - listitem [ref=e136]:
+              - generic [ref=e137]:
+                - time [ref=e139]: February 3, 2026
+                - 'heading "The Vagus Nerve Blockade: Why Chronic Stress Literally Stops Your Digestion" [level=2] [ref=e140]':
+                  - 'link "The Vagus Nerve Blockade: Why Chronic Stress Literally Stops Your Digestion" [ref=e141] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2026/02/03/vagus-nerve-constipation-stress/
+                - figure [ref=e142]:
+                  - 'link "The Vagus Nerve Blockade: Why Chronic Stress Literally Stops Your Digestion" [ref=e143] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2026/02/03/vagus-nerve-constipation-stress/
+                    - 'img "The Vagus Nerve Blockade: Why Chronic Stress Literally Stops Your Digestion" [ref=e144]'
+                - paragraph [ref=e146]:
+                  - text: Stressed and constipated? Learn why your brain’s “fight-or-flight” mode freezes your gut via the vagus nerve. Discover the science behind anxiety-induced constipation and how to reboot your digestion.
+                  - link "Continue reading" [ref=e147] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/02/03/vagus-nerve-constipation-stress/
+                - generic [ref=e149]:
+                  - generic [ref=e150]:
+                    - link "Gut-Brain Axis" [ref=e151] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/gut-brain-axis/
+                    - text: ","
+                    - link "Nervous System Regulation" [ref=e152] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/nervous-system-regulation/
+                  - generic [ref=e153]:
+                    - link "gut-health" [ref=e154] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e155] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "mental-health" [ref=e156] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "nutrition" [ref=e157] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "wellness" [ref=e158] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - time [ref=e162]: January 26, 2026
+                - 'heading "IBS-C 101: It’s Not a Gut Disease, It’s a Gut-Brain Communication Breakdown" [level=2] [ref=e163]':
+                  - 'link "IBS-C 101: It’s Not a Gut Disease, It’s a Gut-Brain Communication Breakdown" [ref=e164] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2026/01/26/ibs-c-101-gut-brain-communication-breakdown/
+                - figure [ref=e165]:
+                  - 'link "IBS-C 101: It’s Not a Gut Disease, It’s a Gut-Brain Communication Breakdown" [ref=e166] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2026/01/26/ibs-c-101-gut-brain-communication-breakdown/
+                    - 'img "IBS-C 101: It’s Not a Gut Disease, It’s a Gut-Brain Communication Breakdown" [ref=e167]'
+                - paragraph [ref=e169]:
+                  - text: "Discover what IBS-C really is: a nervous system disorder of gut-brain miscommunication causing chronic constipation, not just a gut disease. Learn the root cause and a new approach."
+                  - link "Continue reading" [ref=e170] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/01/26/ibs-c-101-gut-brain-communication-breakdown/
+                - generic [ref=e172]:
+                  - link "Body-Mind Science" [ref=e174] [cursor=pointer]:
+                    - /url: https://neurospirit.co/category/body-mind-science/
+                  - generic [ref=e175]:
+                    - link "Chronic Constipation" [ref=e176] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/chronic-constipation/
+                    - text: ","
+                    - link "constipation-anxiety" [ref=e177] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/constipation-anxiety/
+                    - text: ","
+                    - link "functional-gut-disorder" [ref=e178] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/functional-gut-disorder/
+                    - text: ","
+                    - link "Gut-Brain Axis" [ref=e179] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-brain-axis/
+                    - text: ","
+                    - link "gut-health" [ref=e180] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e181] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "IBS-C" [ref=e182] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/ibs-c/
+                    - text: ","
+                    - link "mental-health" [ref=e183] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "nervous-system" [ref=e184] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nervous-system/
+                    - text: ","
+                    - link "nutrition" [ref=e185] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "wellness" [ref=e186] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+                    - text: ","
+                    - link "what-is-ibs-c" [ref=e187] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/what-is-ibs-c/
+            - listitem [ref=e188]:
+              - generic [ref=e189]:
+                - time [ref=e191]: January 12, 2026
+                - 'heading "Emergency Constipation Relief: A 3-Step Science-Backed Plan" [level=2] [ref=e192]':
+                  - 'link "Emergency Constipation Relief: A 3-Step Science-Backed Plan" [ref=e193] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2026/01/12/havent-pooped-for-days-emergency-plan/
+                - figure [ref=e194]:
+                  - 'link "Emergency Constipation Relief: A 3-Step Science-Backed Plan" [ref=e195] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2026/01/12/havent-pooped-for-days-emergency-plan/
+                    - 'img "Emergency Constipation Relief: A 3-Step Science-Backed Plan" [ref=e196]'
+                - paragraph [ref=e198]:
+                  - text: Struggling with chronic constipation? Use this 3-step emergency plan to get relief naturally. Learn how neuro-breathing, magnesium citrate, and the gut-brain axis can restart your digestion without harsh laxatives.
+                  - link "Continue reading" [ref=e199] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/01/12/havent-pooped-for-days-emergency-plan/
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - link "Chronic Constipation" [ref=e203] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/chronic-constipation/
+                    - text: ","
+                    - link "Nervous System Regulation" [ref=e204] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/nervous-system-regulation/
+                    - text: ","
+                    - link "Supplement Guides" [ref=e205] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/supplement-guides/
+                  - generic [ref=e206]:
+                    - link "Constipation relief" [ref=e207] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/constipation-relief/
+                    - text: ","
+                    - link "Gut-Brain Axis" [ref=e208] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-brain-axis/
+                    - text: ","
+                    - link "gut-health" [ref=e209] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e210] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "IBS-C" [ref=e211] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/ibs-c/
+                    - text: ","
+                    - link "magnesium citrate" [ref=e212] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/magnesium-citrate/
+                    - text: ","
+                    - link "mental-health" [ref=e213] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "nutrition" [ref=e214] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "osmotic laxative" [ref=e215] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/osmotic-laxative/
+                    - text: ","
+                    - link "severe constipation" [ref=e216] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/severe-constipation/
+                    - text: ","
+                    - link "Vagus Nerve" [ref=e217] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/vagus-nerve/
+                    - text: ","
+                    - link "wellness" [ref=e218] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+            - listitem [ref=e219]:
+              - generic [ref=e220]:
+                - time [ref=e222]: January 1, 2026
+                - 'heading "Why Constipation Remedies Stop Working: The Science of Gut Adaptation" [level=2] [ref=e223]':
+                  - 'link "Why Constipation Remedies Stop Working: The Science of Gut Adaptation" [ref=e224] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2026/01/01/why-constipation-remedies-stop-working-science-of-adaptation/
+                - figure [ref=e225]:
+                  - 'link "Why Constipation Remedies Stop Working: The Science of Gut Adaptation" [ref=e226] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2026/01/01/why-constipation-remedies-stop-working-science-of-adaptation/
+                    - 'img "Why Constipation Remedies Stop Working: The Science of Gut Adaptation" [ref=e227]'
+                - paragraph [ref=e229]:
+                  - text: Why do constipation remedies stop working? Learn about gut adaptation, laxative dependency, and how to use the NeuroSpirit Rotation Protocol to fix chronic constipation for good.
+                  - link "Continue reading" [ref=e230] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2026/01/01/why-constipation-remedies-stop-working-science-of-adaptation/
+                - generic [ref=e232]:
+                  - link "Body-Mind Science" [ref=e234] [cursor=pointer]:
+                    - /url: https://neurospirit.co/category/body-mind-science/
+                  - generic [ref=e235]:
+                    - link "constipation remedies" [ref=e236] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/constipation-remedies/
+                    - text: ","
+                    - link "digestive health" [ref=e237] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/digestive-health/
+                    - text: ","
+                    - link "fiber" [ref=e238] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/fiber/
+                    - text: ","
+                    - link "Gut-Brain Axis" [ref=e239] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-brain-axis/
+                    - text: ","
+                    - link "gut-health" [ref=e240] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e241] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "IBS-C" [ref=e242] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/ibs-c/
+                    - text: ","
+                    - link "laxative dependency" [ref=e243] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/laxative-dependency/
+                    - text: ","
+                    - link "magnesium" [ref=e244] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/magnesium/
+                    - text: ","
+                    - link "mental-health" [ref=e245] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "nervous system" [ref=e246] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nervous-system-2/
+                    - text: ","
+                    - link "nutrition" [ref=e247] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "soluble fiber" [ref=e248] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/soluble-fiber/
+                    - text: ","
+                    - link "tolerance" [ref=e249] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/tolerance/
+                    - text: ","
+                    - link "Vagus Nerve" [ref=e250] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/vagus-nerve/
+                    - text: ","
+                    - link "wellness" [ref=e251] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+            - listitem [ref=e252]:
+              - generic [ref=e253]:
+                - time [ref=e255]: December 19, 2025
+                - heading "Stuck in IBS-C? What If Your Constipation Was Actually a Nervous System Signal?" [level=2] [ref=e256]:
+                  - link "Stuck in IBS-C? What If Your Constipation Was Actually a Nervous System Signal?" [ref=e257] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2025/12/19/nervous-system-protocol-chronic-constipation-ibs-c/
+                - figure [ref=e258]:
+                  - link "Stuck in IBS-C? What If Your Constipation Was Actually a Nervous System Signal?" [ref=e259] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2025/12/19/nervous-system-protocol-chronic-constipation-ibs-c/
+                    - img "Stuck in IBS-C? What If Your Constipation Was Actually a Nervous System Signal?" [ref=e260]
+                - paragraph [ref=e262]:
+                  - text: Struggling with chronic constipation or IBS-C? This step-by-step nervous system protocol addresses the root cause – gut-brain miscommunication—to restore natural motility.
+                  - link "Continue reading" [ref=e263] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2025/12/19/nervous-system-protocol-chronic-constipation-ibs-c/
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - link "Chronic Constipation" [ref=e267] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/chronic-constipation/
+                    - text: ","
+                    - link "Gut-Brain Axis" [ref=e268] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/gut-brain-axis/
+                  - generic [ref=e269]:
+                    - link "freeze-response" [ref=e270] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/freeze-response/
+                    - text: ","
+                    - link "Gut-Brain Axis" [ref=e271] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-brain-axis/
+                    - text: ","
+                    - link "gut-health" [ref=e272] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e273] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "mental-health" [ref=e274] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "motility" [ref=e275] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/motility/
+                    - text: ","
+                    - link "nutrition" [ref=e276] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "wellness" [ref=e277] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+            - listitem [ref=e278]:
+              - generic [ref=e279]:
+                - time [ref=e281]: December 13, 2025
+                - 'heading "Morning Anxiety & Constipation: How I Used My Breath to Calm My Gut After 15 Years" [level=2] [ref=e282]':
+                  - 'link "Morning Anxiety & Constipation: How I Used My Breath to Calm My Gut After 15 Years" [ref=e283] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2025/12/13/morning-anxiety-constipation-breath-vagus-nerve/
+                - figure [ref=e284]:
+                  - 'link "Morning Anxiety & Constipation: How I Used My Breath to Calm My Gut After 15 Years" [ref=e285] [cursor=pointer]':
+                    - /url: https://neurospirit.co/2025/12/13/morning-anxiety-constipation-breath-vagus-nerve/
+                    - 'img "Morning Anxiety & Constipation: How I Used My Breath to Calm My Gut After 15 Years" [ref=e286]'
+                - paragraph [ref=e288]:
+                  - text: Stuck with morning anxiety and constipation? Discover a simple breathwork routine to calm your nervous system and stimulate digestion upon waking.
+                  - link "Continue reading" [ref=e289] [cursor=pointer]:
+                    - /url: https://neurospirit.co/2025/12/13/morning-anxiety-constipation-breath-vagus-nerve/
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - link "Chronic Constipation" [ref=e293] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/chronic-constipation/
+                    - text: ","
+                    - link "Gut-Brain Axis" [ref=e294] [cursor=pointer]:
+                      - /url: https://neurospirit.co/category/gut-brain-axis/
+                  - generic [ref=e295]:
+                    - link "Body-Mind Science" [ref=e296] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/body-mind-science/
+                    - text: ","
+                    - link "can’t poop when anxious" [ref=e297] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/cant-poop-when-anxious/
+                    - text: ","
+                    - link "gut-health" [ref=e298] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/gut-health/
+                    - text: ","
+                    - link "health" [ref=e299] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/health/
+                    - text: ","
+                    - link "megnesium" [ref=e300] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/megnesium/
+                    - text: ","
+                    - link "mental-health" [ref=e301] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/mental-health/
+                    - text: ","
+                    - link "morning anxiety constipation" [ref=e302] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/morning-anxiety-constipation/
+                    - text: ","
+                    - link "nervous system constipation" [ref=e303] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nervous-system-constipation/
+                    - text: ","
+                    - link "nutrition" [ref=e304] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/nutrition/
+                    - text: ","
+                    - link "Vagus Nerve" [ref=e305] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/vagus-nerve/
+                    - text: ","
+                    - link "wellness" [ref=e306] [cursor=pointer]:
+                      - /url: https://neurospirit.co/tag/wellness/
+          - navigation "Pagination" [ref=e307]:
+            - link "Next Page" [ref=e308] [cursor=pointer]:
+              - /url: https://neurospirit.co/page/2/
+              - text: Next Page
+              - generic [ref=e309]: »
+        - complementary [ref=e312]:
+          - generic [ref=e313]:
+            - heading "About Me" [level=3] [ref=e314]
+            - paragraph [ref=e315]:
+              - text: Hi, I’m Ting – a researcher who spent 15 years dealing with
+              - strong [ref=e316]: chronic constipation and gut issues
+              - text: "that never fully resolved, no matter what I tried: fiber, probiotics, aloe, diets, yoga, meditation, warm lemon water, even laxatives."
+              - strong [ref=e317]: Everything worked for a while… until my body “adapted” again.
+            - paragraph [ref=e318]: My breakthrough came when I stopped treating my gut alone and started understanding the gut–brain axis. Anxiety runs in my family, and I eventually learned that my digestion wasn’t just a physical problem – it was neurological.
+            - paragraph [ref=e319]:
+              - text: Now I share science-based, real-life strategies to help women heal chronic constipation, regulate their nervous system, and break the anxiety – gut cycle. You’re not broken. just dysregulated. And there
+              - emphasis [ref=e320]: is
+              - text: a way back.
+              - text: I’m glad you’re here.
+            - list [ref=e321]:
+              - listitem [ref=e322]:
+                - link "Pinterest" [ref=e323] [cursor=pointer]:
+                  - /url: https://pin.it/9p8OmHvpT
+                  - img [ref=e324]
+                  - generic [ref=e326]: Pinterest
+            - separator [ref=e327]
+          - paragraph [ref=e328]: Category
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - link "Body-Mind Science" [ref=e331] [cursor=pointer]:
+                - /url: https://neurospirit.co/category/body-mind-science/
+            - listitem [ref=e332]:
+              - link "Chronic Constipation" [ref=e333] [cursor=pointer]:
+                - /url: https://neurospirit.co/category/chronic-constipation/
+            - listitem [ref=e334]:
+              - link "Gut-Brain Axis" [ref=e335] [cursor=pointer]:
+                - /url: https://neurospirit.co/category/gut-brain-axis/
+            - listitem [ref=e336]:
+              - link "Nervous System Regulation" [ref=e337] [cursor=pointer]:
+                - /url: https://neurospirit.co/category/nervous-system-regulation/
+            - listitem [ref=e338]:
+              - link "Supplement Guides" [ref=e339] [cursor=pointer]:
+                - /url: https://neurospirit.co/category/supplement-guides/
+          - separator [ref=e340]
+          - paragraph
+          - heading "Recent Posts" [level=3] [ref=e341]
+          - list [ref=e342]:
+            - listitem [ref=e343]:
+              - link "Why Nothing Works for Your Constipation (And the One Thing That’s Different)" [ref=e344] [cursor=pointer]:
+                - /url: https://neurospirit.co/2026/03/30/why-nothing-works-for-constipation/
+            - listitem [ref=e345]:
+              - link "Why Constipation Remedies Stop Working (And My 3-Step Rotation Protocol to Fix It)" [ref=e346] [cursor=pointer]:
+                - /url: https://neurospirit.co/2026/03/11/neurospirit-rotation-protocol-chronic-constipation/
+            - listitem [ref=e347]:
+              - link "Why You Feel Worse After Taking Laxatives" [ref=e348] [cursor=pointer]:
+                - /url: https://neurospirit.co/2026/03/03/why-you-feel-worse-after-taking-laxatives/
+            - listitem [ref=e349]:
+              - link "Why Constipation Emergencies Keep Repeating (And How to Break the Cycle)" [ref=e350] [cursor=pointer]:
+                - /url: https://neurospirit.co/2026/02/13/why-constipation-emergencies-keep-repeating-and-how-to-break-the-cycle/
+            - listitem [ref=e351]:
+              - 'link "The Vagus Nerve Blockade: Why Chronic Stress Literally Stops Your Digestion" [ref=e352] [cursor=pointer]':
+                - /url: https://neurospirit.co/2026/02/03/vagus-nerve-constipation-stress/
+          - generic [ref=e353]:
+            - paragraph
+            - heading "Newsletter Get your free 7-Day Vagus-Vital Starter Guide for anxiety-driven IBS-C." [level=3] [ref=e354]:
+              - text: Newsletter
+              - subscript [ref=e355]:
+                - text: Get your
+                - strong [ref=e356]: free 7-Day Vagus-Vital Starter Guide
+                - text: for anxiety-driven IBS-C.
+            - generic [ref=e360]:
+              - paragraph [ref=e361]:
+                - generic [ref=e362]: Type your email…
+                - textbox "Type your email…" [ref=e363] [cursor=pointer]
+              - paragraph [ref=e364]:
+                - button "subscribe" [ref=e365] [cursor=pointer]
+    - contentinfo [ref=e366]:
+      - generic [ref=e367]:
+        - separator [ref=e368]
+        - generic [ref=e369]:
+          - generic [ref=e370]:
+            - heading "Recent Posts" [level=3] [ref=e371]
+            - list [ref=e372]:
+              - listitem [ref=e373]:
+                - link "Why Nothing Works for Your Constipation (And the One Thing That’s Different)" [ref=e374] [cursor=pointer]:
+                  - /url: https://neurospirit.co/2026/03/30/why-nothing-works-for-constipation/
+              - listitem [ref=e375]:
+                - link "Why Constipation Remedies Stop Working (And My 3-Step Rotation Protocol to Fix It)" [ref=e376] [cursor=pointer]:
+                  - /url: https://neurospirit.co/2026/03/11/neurospirit-rotation-protocol-chronic-constipation/
+              - listitem [ref=e377]:
+                - link "Why You Feel Worse After Taking Laxatives" [ref=e378] [cursor=pointer]:
+                  - /url: https://neurospirit.co/2026/03/03/why-you-feel-worse-after-taking-laxatives/
+          - generic [ref=e379]:
+            - heading "Follow Me" [level=3] [ref=e380]
+            - paragraph [ref=e382]:
+              - link "Pinterest" [ref=e383] [cursor=pointer]:
+                - /url: https://pin.it/2a03YN7zC
+            - paragraph [ref=e384]:
+              - link "Contact" [ref=e385] [cursor=pointer]:
+                - /url: https://neurospirit.co/contact/
+          - generic [ref=e386]:
+            - heading "Newsletter" [level=3] [ref=e387]
+            - generic [ref=e391]:
+              - paragraph [ref=e392]:
+                - generic [ref=e393]: Type your email…
+                - textbox "Type your email…" [ref=e394] [cursor=pointer]
+              - paragraph [ref=e395]:
+                - button "subscribe" [ref=e396] [cursor=pointer]
+        - paragraph [ref=e398]:
+          - link "Blog at WordPress.com." [ref=e399] [cursor=pointer]:
+            - /url: https://wordpress.com/?ref=footer_blog
+  - generic [ref=e400]:
+    - img [ref=e402] [cursor=pointer]
+    - generic [ref=e405]:
+      - img "NeuroSpirit | Science-Backed IBS-C & Chronic Constipation RelieF" [ref=e407]
+      - heading "NeuroSpirit | Science-Backed IBS-C & Chronic Constipation RelieF" [level=1] [ref=e408]
+      - paragraph [ref=e409]: Calm Your Anxious Nervous System to Soothe Your Gut through the Gut-Brain Axis.
+      - generic [ref=e413]:
+        - paragraph [ref=e414]:
+          - generic [ref=e415]: Type your email…
+          - textbox "Type your email…" [ref=e416] [cursor=pointer]
+        - paragraph [ref=e417]:
+          - button "Subscribe" [ref=e418] [cursor=pointer]
+      - paragraph [ref=e419]:
+        - link "Skip to content ↓" [ref=e420] [cursor=pointer]:
+          - /url: https://neurospirit.co
+  - list [ref=e422]:
+    - listitem [ref=e423]:
+      - link "Subscribe" [ref=e424] [cursor=pointer]:
+        - /url: ""
+        - img [ref=e425]
+        - text: Subscribe
+    - listitem [ref=e427] [cursor=pointer]:
+      - img [ref=e428]

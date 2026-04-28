@@ -1,0 +1,234 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e9]:
+    - region "Notifications Alt+T"
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e14]:
+          - img "Shping" [ref=e15]
+          - img "layout" [ref=e16]:
+            - img [ref=e17]
+        - generic [ref=e19]:
+          - generic [ref=e20]: Dashboard
+          - generic [ref=e21]:
+            - generic "Authenticateit Pty Ltd" [ref=e24]:
+              - generic [ref=e25]:
+                - img "Authenticateit Pty Ltd" [ref=e27]
+                - generic [ref=e28]: Authenticateit Pty Ltd
+              - combobox [ref=e29]
+            - generic "English" [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e37]: English
+              - combobox [ref=e38]
+            - img [ref=e40] [cursor=pointer]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Main Menu" [level=2] [ref=e44]
+            - menu [ref=e45]:
+              - menuitem "line-chart Analytics" [ref=e46] [cursor=pointer]:
+                - img "line-chart" [ref=e47]:
+                  - img [ref=e48]
+                - link "Analytics" [ref=e51]:
+                  - /url: /admin/analytics
+              - menuitem "Contributors" [ref=e52] [cursor=pointer]:
+                - img [ref=e53]
+                - link "Contributors" [ref=e56]:
+                  - /url: /admin/contributors
+              - menuitem "Campaigns" [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+                - link "Campaigns" [ref=e61]:
+                  - /url: /admin/campaigns
+              - menuitem "Media Hub" [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+                - link "Media Hub" [ref=e66]:
+                  - /url: /admin/media-hub
+              - menuitem "Reviews" [ref=e67] [cursor=pointer]:
+                - img [ref=e68]
+                - link "Reviews" [ref=e71]:
+                  - /url: /admin/reviews
+              - menuitem "Products" [ref=e72] [cursor=pointer]:
+                - img [ref=e73]
+                - link "Products" [ref=e76]:
+                  - /url: /admin/products
+              - menuitem "Documents" [ref=e77] [cursor=pointer]:
+                - img [ref=e78]
+                - link "Documents" [ref=e81]:
+                  - /url: /admin/documents
+              - menuitem "Legal" [ref=e82] [cursor=pointer]:
+                - img [ref=e83]
+                - link "Legal" [ref=e86]:
+                  - /url: /admin/legals
+              - menuitem "ToDo cards" [ref=e87] [cursor=pointer]:
+                - img [ref=e88]
+                - link "ToDo cards" [ref=e91]:
+                  - /url: /admin/todo-cards
+              - menuitem "App users" [ref=e92] [cursor=pointer]:
+                - img [ref=e93]
+                - link "App users" [ref=e96]:
+                  - /url: /admin/users
+              - menuitem "Our Customers" [ref=e97] [cursor=pointer]:
+                - img [ref=e98]
+                - link "Our Customers" [ref=e101]:
+                  - /url: /admin/customers
+              - menuitem "Store cards" [ref=e102] [cursor=pointer]:
+                - img [ref=e103]
+                - link "Store cards" [ref=e106]:
+                  - /url: /admin/store-cards
+              - menuitem "trademark-circle Trademarks" [ref=e107] [cursor=pointer]:
+                - img "trademark-circle" [ref=e108]:
+                  - img [ref=e109]
+                - link "Trademarks" [ref=e112]:
+                  - /url: /admin/trademarks
+              - menuitem "Loyalty Hub" [ref=e113] [cursor=pointer]:
+                - img [ref=e114]
+                - link "Loyalty Hub" [ref=e117]:
+                  - /url: /admin/loyaltyhub
+              - menuitem "setting Settings" [ref=e118] [cursor=pointer]:
+                - img "setting" [ref=e119]:
+                  - img [ref=e120]
+                - link "Settings" [ref=e123]:
+                  - /url: /admin/settings
+          - menu [ref=e124]:
+            - menuitem "logout Sign out" [ref=e125] [cursor=pointer]:
+              - img "logout" [ref=e126]:
+                - img [ref=e127]
+              - link "Sign out" [ref=e130]:
+                - /url: /
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - link "Overview" [ref=e134] [cursor=pointer]:
+              - /url: /admin/analytics/roi
+              - generic [ref=e136]: Overview
+            - link "Performance" [ref=e137] [cursor=pointer]:
+              - /url: /admin/analytics/overview
+              - generic [ref=e139]: Performance
+            - link "Audience" [ref=e140] [cursor=pointer]:
+              - /url: /admin/analytics/audience
+              - generic [ref=e142]: Audience
+            - link "Geography" [ref=e143] [cursor=pointer]:
+              - /url: /admin/analytics/geography
+              - generic [ref=e145]: Geography
+            - link "Conversion" [ref=e146] [cursor=pointer]:
+              - /url: /admin/analytics/conversion
+              - generic [ref=e148]: Conversion
+            - link "Spend" [ref=e149] [cursor=pointer]:
+              - /url: /admin/analytics/spend
+              - generic [ref=e151]: Spend
+            - link "Insights" [ref=e152] [cursor=pointer]:
+              - /url: /admin/analytics/insights
+              - generic [ref=e154]: Insights
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - textbox [ref=e161]: 04/01/2026
+                  - generic "to" [ref=e163]:
+                    - img "swap-right" [ref=e164]:
+                      - img [ref=e165]
+                  - textbox [ref=e168]: 04/07/2026
+                  - generic:
+                    - img "calendar":
+                      - img
+                - generic [ref=e169]:
+                  - generic "Australia" [ref=e170]:
+                    - text: Australia
+                    - combobox [ref=e171]
+                  - img "down" [ref=e173]:
+                    - img [ref=e174]
+                - generic [ref=e176]:
+                  - generic "All brands" [ref=e177]:
+                    - text: All brands
+                    - combobox [ref=e178]
+                  - img "down" [ref=e843]:
+                    - img [ref=e844]
+                - textbox "Choose city" [ref=e184]
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - generic:
+                      - generic: All GTIN's
+                    - combobox [ref=e188]
+                  - img "down" [ref=e190]:
+                    - img [ref=e191]
+              - generic [ref=e193]:
+                - button "Add widgets" [ref=e194] [cursor=pointer]:
+                  - generic [ref=e195]: Add widgets
+                - button "upload Export" [ref=e196] [cursor=pointer]:
+                  - img "upload" [ref=e198]:
+                    - img [ref=e199]
+                  - generic [ref=e201]: Export
+            - generic [ref=e202]:
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - img [ref=e206]
+                  - img [ref=e208]
+                - generic [ref=e210]: Audience
+                - img [ref=e212]
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - img [ref=e217]
+                  - img [ref=e219]
+                - generic [ref=e221]: Gender
+                - img [ref=e225]
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - img [ref=e230]
+                  - img [ref=e232]
+                - generic [ref=e234]: Generation
+                - img [ref=e238]
+              - generic [ref=e241]:
+                - generic [ref=e242]:
+                  - img [ref=e243]
+                  - img [ref=e245]
+                - generic [ref=e247]: Engaged Users
+                - generic [ref=e248]:
+                  - img [ref=e250]:
+                    - generic [ref=e252]: 22,407
+                  - generic [ref=e254]:
+                    - generic [ref=e255]: "9"
+                    - generic [ref=e256]: Total users within the defined period
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - table:
+                        - rowgroup:
+                          - row "GTIN Reg IMG Title":
+                            - columnheader "GTIN":
+                              - generic:
+                                - generic:
+                                  - generic: GTIN
+                                - generic:
+                                  - generic:
+                                    - img:
+                                      - img
+                                    - img:
+                                      - img
+                            - columnheader "Reg":
+                              - generic:
+                                - generic: Reg
+                                - generic:
+                                  - generic:
+                                    - img:
+                                      - img
+                                    - img:
+                                      - img
+                            - columnheader "IMG"
+                            - columnheader "Title"
+                        - rowgroup:
+                          - row "0 - All brands":
+                            - cell "0"
+                            - cell "-"
+                            - cell
+                            - cell "All brands"
+                          - row "30 14011 Gigi":
+                            - cell "30"
+                            - cell "14011"
+                            - cell
+                            - cell "Gigi"

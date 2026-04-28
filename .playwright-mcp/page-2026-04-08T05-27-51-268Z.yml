@@ -1,0 +1,33 @@
+- generic [ref=e3]:
+  - region "Notifications Alt+T"
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img "Shping" [ref=e6]
+      - generic "English" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]:
+          - img [ref=e12]
+          - generic [ref=e14]: English
+        - combobox [ref=e15]
+    - generic [ref=e19]:
+      - strong [ref=e22]: SIGN IN TO CONTINUE
+      - generic [ref=e23]: Email
+      - generic [ref=e24]:
+        - generic:
+          - strong
+        - generic [ref=e25]:
+          - textbox "you@domain.com" [ref=e26]
+          - generic:
+            - img
+      - generic [ref=e27]: Password
+      - generic [ref=e28]:
+        - generic:
+          - strong
+        - generic [ref=e29]:
+          - textbox "Your password" [ref=e30]
+          - img "eye-invisible" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+      - link "Forgot password?" [ref=e36] [cursor=pointer]:
+        - /url: /reset-password
+      - button "Login" [disabled] [ref=e38]:
+        - generic: Login
+    - strong [ref=e40]: © 2026 - Shping
