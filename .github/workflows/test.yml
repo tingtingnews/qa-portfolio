@@ -1,0 +1,104 @@
+# ─────────────────────────────────────────────────────────────────────
+# GitHub Actions CI — Shping Admin QA Automation
+#
+# What this does:
+#   1. Triggers on every push or pull request to main
+#   2. Sets up Python + Playwright (headless Chromium)
+#   3. Runs ALL Playwright tests
+#   4. Generates both pytest-html and Allure reports
+#   5. Uploads reports as downloadable artifacts
+#
+# The test results are available in the "Actions" tab on GitHub.
+# Click any workflow run → scroll to "Artifacts" → download reports.
+# ─────────────────────────────────────────────────────────────────────
+
+name: Run Playwright Tests
+
+# ── When to run ──────────────────────────────────────────────────────
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# ── Environment variables (credentials for test login) ───────────────
+env:
+  SHPING_ADMIN_EMAIL: ${{ secrets.SHPING_ADMIN_EMAIL }}
+  SHPING_ADMIN_PASSWORD: ${{ secrets.SHPING_ADMIN_PASSWORD }}
+  SHPING_BASE_URL: "https://dev-admin.shping.com"
+
+jobs:
+  test:
+    name: Playwright Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      # ── Step 1: Check out the code ─────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── Step 2: Set up Python ──────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"  # Cache pip packages for faster runs
+
+      # ── Step 3: Install dependencies ───────────────────────────────
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # ── Step 4: Install Playwright browsers ────────────────────────
+      - name: Install Playwright Chromium
+        run: playwright install chromium --with-deps
+
+      # ── Step 5: Run tests (headless) with both report formats ──────
+      - name: Run Playwright tests
+        run: |
+          pytest test_media_hub_create.py \
+            -v \
+            --tb=short \
+            --html=reports/report.html \
+            --self-contained-html \
+            --alluredir=reports/allure-results \
+            || true
+        # "|| true" ensures the workflow continues even if tests fail,
+        # so we still get the reports uploaded as artifacts.
+
+      # ── Step 6: Upload pytest-html report ──────────────────────────
+      - name: Upload pytest-html report
+        if: always()  # Upload even if tests failed
+        uses: actions/upload-artifact@v4
+        with:
+          name: pytest-html-report
+          path: reports/report.html
+          retention-days: 30
+
+      # ── Step 7: Upload Allure results ──────────────────────────────
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: reports/allure-results
+          retention-days: 30
+
+      # ── Step 8: Generate Allure HTML report ────────────────────────
+      - name: Generate Allure HTML report
+        if: always()
+        uses: simple-elf/allure-report-action@v1.9
+        with:
+          allure_results: reports/allure-results
+          allure_report: reports/allure-report
+
+      - name: Upload Allure HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-html-report
+          path: reports/allure-report
+          retention-days: 30

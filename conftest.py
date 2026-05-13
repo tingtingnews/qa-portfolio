@@ -45,8 +45,18 @@ ANALYTICS_INSIGHTS_URL   = f"{BASE_URL}/admin/analytics/insights"    # "Insights
 CONTRIBUTORS_URL         = f"{BASE_URL}/admin/contributors"          # Contributors page
 CAMPAIGNS_URL            = f"{BASE_URL}/admin/media-hub/campaigns"   # Campaigns page
 
-ADMIN_EMAIL    = os.getenv("SHPING_ADMIN_EMAIL",    "hsiangjung.ting@gmail.com")
-ADMIN_PASSWORD = os.getenv("SHPING_ADMIN_PASSWORD", "Testingting123#")
+# Credentials loaded from environment variables only.
+# - Locally:  export SHPING_ADMIN_EMAIL="..." and SHPING_ADMIN_PASSWORD="..."
+# - CI/CD:    stored in GitHub Secrets, injected automatically by the workflow
+# - NEVER hardcode credentials in source code.
+ADMIN_EMAIL    = os.getenv("SHPING_ADMIN_EMAIL")
+ADMIN_PASSWORD = os.getenv("SHPING_ADMIN_PASSWORD")
+
+if not ADMIN_EMAIL or not ADMIN_PASSWORD:
+    raise RuntimeError(
+        "Missing credentials. Set SHPING_ADMIN_EMAIL and SHPING_ADMIN_PASSWORD "
+        "as environment variables before running tests."
+    )
 
 
 # ── Session-scoped: one browser login, shared for all tests ───────────────────
@@ -380,16 +390,4 @@ def contributors_page(session_page: Page) -> Page:
 def unauth_page(playwright: Playwright, request) -> Page:
     """
     Spawns a brand-new browser context with no session — used only by the
-    login-flow tests that need to test authentication from scratch.
-    """
-    headed = request.config.getoption("--headed", default=False)
-    browser = playwright.chromium.launch(
-        headless=not headed,
-        slow_mo=100 if headed else 0,
-    )
-    context = browser.new_context(viewport={"width": 1440, "height": 900})
-    p = context.new_page()
-    yield p
-    p.close()
-    context.close()
-    browser.close()
+    login-flow tests that need to test au
