@@ -54,7 +54,7 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
           pip install playwright==1.52.0
-          playwright install chromium --with-deps
+          - run: playwright install --only-shell-deps chromium
 
       # ── Step 4: Run tests (headless) with both report formats ──────
       - name: Run Playwright tests
