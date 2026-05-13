@@ -33,7 +33,7 @@ env:
 jobs:
   test:
     name: Playwright Tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 30
 
     steps:
@@ -50,13 +50,13 @@ jobs:
 
       # ── Step 3: Install dependencies ───────────────────────────────
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install playwright==1.52.0
+          playwright install chromium --with-deps
 
-      # ── Step 4: Install Playwright browsers ────────────────────────
-      - name: Install Playwright Chromium
-        run: playwright install chromium --with-deps
-
-      # ── Step 5: Run tests (headless) with both report formats ──────
+      # ── Step 4: Run tests (headless) with both report formats ──────
       - name: Run Playwright tests
         run: |
           pytest test_media_hub_create.py \
