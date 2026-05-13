@@ -1,0 +1,51 @@
+name: QA Portfolio — Full Test Suite
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  pytest-suite:
+    name: Playwright UI + API + DB
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: playwright install --with-deps chromium
+      - run: pytest tests/ui  -v --html=reports/ui-report.html  --self-contained-html
+        env:
+          BASE_URL: https://www.saucedemo.com
+      - run: pytest tests/api -v --html=reports/api-report.html --self-contained-html
+        env:
+          API_BASE_URL: https://reqres.in/api
+      - run: pytest tests/db  -v --html=reports/db-report.html  --self-contained-html
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-reports
+          path: reports/
+
+  k6-performance:
+    name: k6 Performance
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: grafana/setup-k6-action@v1
+      - run: k6 run tests/performance/smoke_test.js
+      - run: k6 run tests/performance/load_test.js
+
+  zap-security:
+    name: OWASP ZAP Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: zaproxy/action-baseline@v0.12.0
+        with:
+          target: 'https://www.saucedemo.com'
+          fail_action: false
+          artifact_name: zap-security-report
