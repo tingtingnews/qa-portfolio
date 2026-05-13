@@ -88,17 +88,20 @@ jobs:
           retention-days: 30
 
       # ── Step 8: Generate Allure HTML report ────────────────────────
+      - name: Install Allure CLI
+        if: always()
+        run: |
+          curl -o allure.tgz -Ls https://github.com/allure-framework/allure2/releases/download/2.32.0/allure-2.32.0.tgz
+          tar -zxf allure.tgz
+          echo "$PWD/allure-2.32.0/bin" >> $GITHUB_PATH
+
+- name: Install Allure CLI
+        if: always()
+        run: |
+          curl -o allure.tgz -Ls https://github.com/allure-framework/allure2/releases/download/2.32.0/allure-2.32.0.tgz
+          tar -zxf allure.tgz
+          echo "$PWD/allure-2.32.0/bin" >> $GITHUB_PATH
+
       - name: Generate Allure HTML report
         if: always()
-        uses: simple-elf/allure-report-action@v1.9
-        with:
-          allure_results: reports/allure-results
-          allure_report: reports/allure-report
-
-      - name: Upload Allure HTML report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-html-report
-          path: reports/allure-report
-          retention-days: 30
+        run: allure generate reports/allure-results -o reports/allure-report --clean
