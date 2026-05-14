@@ -390,4 +390,21 @@ def contributors_page(session_page: Page) -> Page:
 def unauth_page(playwright: Playwright, request) -> Page:
     """
     Spawns a brand-new browser context with no session — used only by the
-    login-flow tests that need to test au
+    login-flow tests that need to test authentication from scratch.
+    """
+    headed = request.config.getoption("--headed", default=False)
+    browser = playwright.chromium.launch(
+        headless=not headed,
+        slow_mo=100 if headed else 0,
+    )
+    context = browser.new_context(
+        viewport={"width": 1440, "height": 900},
+        locale="en-US",
+    )
+    page = context.new_page()
+
+    yield page
+
+    page.close()
+    context.close()
+    browser.close()
