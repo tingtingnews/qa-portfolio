@@ -37,7 +37,7 @@ jobs:
 
       - name: Run Playwright tests
         run: |
-          pytest test_media_hub_create.py \
+          pytest tests/ \
             -v \
             --tb=short \
             --html=reports/report.html \
