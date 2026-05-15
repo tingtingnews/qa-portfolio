@@ -5,3 +5,18 @@ build/
 bin/
 *.log
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Playwright MCP browser snapshots (from Claude inspections)
+.playwright-mcp/
+
+# Environment / secrets
+.env
+
+# Reports (generated in CI)
+reports/
