@@ -10,14 +10,15 @@ QA automation suite for a B2B Admin Dashboard — a React/Redux SPA used by bran
 
 ## Tech Stack
 
-| Layer       | Tools                                    |
-|-------------|------------------------------------------|
-| UI / E2E    | Playwright + Python                      |
-| API         | Playwright network interception, requests|
-| Database    | psycopg2 (PostgreSQL validation)         |
-| CI/CD       | GitHub Actions (automated on push/PR)    |
-| Reporting   | pytest-html, Allure                      |
-| Load Test   | k6 (planned)                             |
+| Layer            | Tools                                                        |
+|------------------|--------------------------------------------------------------|
+| UI / E2E         | Playwright + Python                                          |
+| API (automated)  | Playwright network interception + requests library           |
+| API (exploratory)| Postman — used for manual debugging and endpoint exploration |
+| Data Validation  | SQL queries via psycopg2 against PostgreSQL; manual verification against AWS engagement data |
+| CI/CD            | GitHub Actions (automated on every push/PR)                  |
+| Reporting        | pytest-html, Allure                                          |
+| Load Test        | k6 (planned)                                                 |
 
 ---
 
@@ -103,10 +104,10 @@ Tests run automatically on every push and pull request to `main` via GitHub Acti
 
 ## Test Approach
 
-- **Session-scoped login:** One browser login shared across all tests for speed — the React/Redux app requires a real login to bootstrap its state (storage_state alone doesn't restore the Redux store).
-- **Network interception:** Tests capture GraphQL and REST API responses in-flight to validate data without needing direct DB access.
-- **Ant Design aware selectors:** Custom selector strategies for Ant Design components (Select dropdowns rendered in portals, DatePicker calendars, Switch toggles, Upload widgets).
-- **Date range isolation:** Each test fixture resets the date range to avoid state leakage between tests.
+- **Session-scoped login:** The React/Redux app requires a real browser login to initialize its in-memory state. Tests share a single authenticated session for speed while each test resets its own data context to avoid state leakage.
+- **Network interception over direct DB calls:** Tests capture GraphQL and REST responses in-flight via Playwright, validating both the API contract and the data the UI actually receives. This approach works without needing direct database credentials in CI.
+- **Component library handling:** The dashboard uses Ant Design, which renders dropdowns, modals, and date pickers in DOM portals outside the main component tree. Tests use targeted selector strategies and JavaScript evaluation to interact with these reliably.
+- **Data validation:** API response data is cross-checked against expected values. For production environments, engagement metrics are also verified manually against AWS data stores to catch discrepancies between the UI and the source of truth.
 
 ---
 
